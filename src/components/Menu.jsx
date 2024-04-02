@@ -40,14 +40,16 @@ export default function Menu() {
                 ) : (
                     <>
                         <div className='Card--List'>
-                            {ratesLista.map((rate, index) => {
-                                return (
-                                <div className='Items' key={index}>
-                                    <h2 className='Items__rates'>Avaliação: {rate.rate} estrelas</h2>
-                                    <h2 className='Items__suggestion'>Sugestão: {rate.suggestion}</h2>
-                                </div>
-                                )
-                            })}
+                            <div className='Card--Item'>
+                                {ratesLista.map((rate, index) => {
+                                    return (
+                                    <div className='Items' key={index}>
+                                        <h2 className='Items__rates'>Avaliação: {rate.rate} estrelas</h2>
+                                        <h2 className='Items__suggestion'>Sugestão: {rate.suggestion}</h2>
+                                    </div>
+                                    )
+                                })}
+                            </div>
                             <button className='homeButton' onClick={retornarInicio}>Retornar ao início</button>
                         </div>
                     </>
