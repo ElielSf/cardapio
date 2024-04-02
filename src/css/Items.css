@@ -1,0 +1,29 @@
+.Items, .Items__suggestion, .Items__rates {
+    background: none;    
+}
+
+.Items {
+    width: 25%;
+    height: 20%;
+    font-size: 0.7rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.homeButton {
+    width: 25%;
+    height: 10%;
+    font-size: 1.2em;
+
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 2px rgb(161, 15, 44);
+}

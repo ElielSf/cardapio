@@ -1,0 +1,83 @@
+.Card--Home {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Card--List {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.Menu {
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card--Home, .Card--List {
+    width: 70%;
+    height: 90%;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: crimson;
+    box-shadow: 15px 15px 1px rgb(121, 10, 32);
+}
+
+.Card__topic {
+    font-size: 2rem;
+
+    background: none;
+} 
+
+.Card__topic--rate {
+    font-size: 2.5rem;
+
+    color: white;
+    background: none;
+}
+
+.Card__input--rate {
+    width: 50%;
+}
+
+.Card__input--menu {
+    width: 60%;
+    height: 25%;
+
+    font-size: 1.5rem;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Card__button {
+    width: 20%;
+    height: 10%;
+
+    font-size: 1.3em;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px rgb(65, 97, 156);
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.Card__button:hover {
+    cursor: pointer;
+    background-color: rgb(86, 128, 206);
+}
+
+.Card__input--rate:hover {
+    cursor: pointer;
+}
